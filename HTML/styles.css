@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Fuente de Google (ajusta según tus preferencias) */
+    margin: 10px 50px; /* Márgenes en todos los lados de la página */
+}
+
+/* Estilos para la barra de navegación */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f3f; /* Color azul marino para la barra de navegación */
+    padding: 10px 20px;
+    color: #fff; /* Color de texto en la barra de navegación */
+}
+
+/* Estilos para el logo de texto */
+#logo {
+    font-size: 28px; /* Tamaño del texto del logo */
+    font-weight: bold; /* Peso de la fuente (puede ser ajustado) */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #fff; /* Color del texto del logo (ajusta según tus preferencias) */
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px; /* Espacio entre elementos del menú (ajusta según tus preferencias) */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color de texto del menú (ajusta según tus preferencias) */
+}
+
+/* Estilos para la animación de carga s
+.loader-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #007BFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }*/
+
+
+/* Animación para elementos que deben aparecer con desvanecimiento */
+.animate-fade-in {
+    opacity: 0;
+    animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+footer {
+    background-color: #001f3f; /* Color azul marino */
+    color: #fff; /* Color de texto blanco o personalizado */
+    padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+    font-family: 'Roboto', sans-serif; /* Fuente de Google (ajusta según tus preferencias) */
+}
