@@ -56,7 +56,4 @@ m.add_child(feature_group)
 m.add_child(folium.map.LayerControl())
 
 
-#Cargar Pagina
-archivoHtml='SolarScout.html';
-m.save(archivoHtml)
-webbrowser.open(archivoHtml)
+
